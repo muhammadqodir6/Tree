@@ -1,0 +1,30 @@
+@media only screen and (max-width:768px){
+    .navbar__nav a{
+        display: none;
+    }
+    .banner{
+        grid-template-columns: 1fr;
+
+    }
+    .about__content{
+        grid-template-columns: 1fr;
+    }
+    .admison__content{
+        grid-template-columns: 100%;
+    }
+    .why__content{
+        grid-template-columns: 1fr;
+    }
+    .Datermine__content{
+        grid-template-columns: 1fr;
+    }
+    .Testimonial__content{
+        grid-template-columns: 1fr;
+    }
+    .contact__content{
+        grid-template-columns: 1fr;
+    }
+    .footer__content{  
+        grid-template-columns: 1fr;
+    }
+}
